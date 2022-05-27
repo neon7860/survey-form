@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Pet Survey Form</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="styles.css"/>
+<head>
+<body>
+<header>
+<h1 id="title">Pet Survey Form</h1>
+<p id="description">Thanks for taking the time to complete this survey!<p>
+</header>
+
+<form id="survey-form">
+<label for="name" id="name-label">Full Name:</label>
+<input id="name" type="text" class="form-control" placeholder="Enter your Full Name" required>	
+<br></br>
+
+<label for="email" id="email-label">Email:</label>
+<input id="email" type="email" class="form-control" placeholder="Enter your Email" required>
+<br></br>
+
+<label for="number" id="number-label">How many pets do you have in your household?</label>
+<input id="number" type="number" min="0" max="20" class="form-control" placeholder="Enter a Number"</input>
+<br></br>
+
+<label for="dropdown">What is your current role?</label>
+<select id="dropdown" class="form-control">
+	<option value="student">Student</option>
+	<option value="unemployed">Unemployed</option>
+	<option value="full time job">Full time Job</option>
+	<option value="part time job">Part time Job</option>
+	<option value="other">Other</option>
+</select>
+<br></br>
+
+<label for="recommend1">Would you recommend a friend or family member to buy a pet?</label>
+</br>
+<input type="radio" id="recommend1" name="recommend" value="yes">
+<label for="recommend">Yes</label><br>
+<input type="radio" id="recommend2" name="recommend" value="no">
+<label for="recommend">No</label><br>
+<input type="radio" id="recommend3" name="recommend" value="not sure">
+<label for="recommend">Not sure</label>
+<br></br>
+
+<label for="checkbox1">What pets do you own?</label></br>
+<label>
+<input type="checkbox" id="checkbox1" name="pet" value="Cat">
+</label>Cat</br>
+<label>
+<input type="checkbox" id="checkbox2" name="pet" value="Dog">
+</label>Dog</br>
+<label>
+<input type="checkbox" id="checkbox3" name="pet" value="Snake">
+</label>Snake</br>
+<label>
+<input type="checkbox" id="checkbox4" name="pet" value="Fish">
+</label>Fish</br>
+<label>
+<input type="checkbox" id="checkbox5" name="pet" value="Lizard">
+</label>Lizard</br>
+<label>
+<input type="checkbox" id="checkbox6" name="pet" value="Bird">
+</label>Bird</br>
+<label>
+<input type="checkbox" id="checkbox7" name="pet" value="Rodent">
+</label>Rodent<br></br>
+
+<label for="comments">Why did you choose to own a pet?</br>
+<textarea id="comments" class="form-control"></textarea>
+<br></br>
+<button type="submit" id="submit">Submit</button>
+</form>
+
+</body>
+
+</head>

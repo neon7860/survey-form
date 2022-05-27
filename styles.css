@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+  }
+  
+  body {
+    background-color:#117980;
+    color: white;
+    font-family: Helvetica;
+    padding: 1rem;
+  }
+  
+  #survey-form{
+    background-color: #114280;
+    border-radius: 0.35rem;
+  }
+  
+  form{
+    padding: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  .form-control{
+    width: 100%;
+    height: 1.7rem;
+    padding: 0.35rem;
+    border: 1px;
+  }
+  
+  button {
+    margin-left: 130px;
+    margin-top: 30px;
+    background-color: #117980;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0.4rem;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+  }
